@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const promptQuestions = require("./questions");
+const promptQuestions = require("./utils/questions");
 const generateMarkdown = require ("./utils/generateMarkdown");
 const fs = require("fs");
 
