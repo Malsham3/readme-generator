@@ -40,5 +40,4 @@ function generateMarkdown(
   ${email}`;
 }
 
-
 module.exports = generateMarkdown;
