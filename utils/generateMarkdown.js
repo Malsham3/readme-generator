@@ -14,14 +14,30 @@ function generateMarkdown(
 ){
   return `# ${title};
 
-  ![License](https://img.shields.io/badge/License-${license}-blue)
-
-  ## Description
+  
+  ## Description:
   ${description}
   
-  ## Table of Contents
-  [Installation] (#installation)
-  [Usage] (#usage)
+  ## Installation:
+  ${installation}
+  
+  ## Usage:
+  ${usage}
+  
+  ## Contribution:
+  ${contribution}
+  
+  ## Test:
+  ${test}
+  
+  ## License:
+  ![License](https://img.shields.io/badge/License-${license}-blue)
+
+  ## GitHub: 
+  Username: ${github}
+
+  ## Email:
+  ${email}`;
 }
 
 
