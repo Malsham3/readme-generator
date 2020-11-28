@@ -12,6 +12,7 @@ function generateMarkdown(
   email
 }
 ){
+  //tempelate for the new file using the user's input
   return `# ${title};
 
   
