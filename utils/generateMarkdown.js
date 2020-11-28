@@ -12,10 +12,17 @@ function generateMarkdown(
   email
 }
 ){
-  return `# ${title}`;
+  return `# ${title};
 
+  ![License](https://img.shields.io/badge/License-${license}-blue)
+
+  ## Description
+  ${description}
+  
+  ## Table of Contents
+  [Installation] (#installation)
+  [Usage] (#usage)
 }
-
 
 
 module.exports = generateMarkdown;
