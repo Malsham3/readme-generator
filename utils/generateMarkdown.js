@@ -15,6 +15,15 @@ function generateMarkdown(
   //tempelate for the new file using the user's input
   return `# ${title};
 
+  ## Table of Contents:
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contibution](#contribution)
+  - [Testing](#testing)
+  - [License](#license)
+  - [Questions](#questions)
+
   
   ## Description:
   ${description}
@@ -28,17 +37,15 @@ function generateMarkdown(
   ## Contribution:
   ${contribution}
   
-  ## Test:
+  ## Testing:
   ${test}
   
   ## License:
   ![License](https://img.shields.io/badge/License-${license}-blue)
 
-  ## GitHub: 
-  Username: ${github}
-
-  ## Email:
-  ${email}`;
+  ## Questions?
+  GitHub: ${github}
+  Email: ${email}`;
 }
 
 module.exports = generateMarkdown;
