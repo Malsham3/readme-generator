@@ -41,11 +41,12 @@ function generateMarkdown(
   ${test}
   
   ## License:
-  ![License](https://img.shields.io/badge/License-${license}-blue)
+  ![License](https://img.shields.io/endpoint?License=${license}&logo=appveyor)
 
   ## Questions?
   GitHub: ${github}
   Email: ${email}`;
+  
 }
 
 module.exports = generateMarkdown;
