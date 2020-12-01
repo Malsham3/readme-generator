@@ -41,7 +41,8 @@ function generateMarkdown(
   ${test}
   
   ## License:
-  ![License](https://img.shields.io/endpoint?License=${license}&logo=appveyor)
+  ![License](https://img.shields.io/static/v1?label=License&message=${license}&color=9cf)
+  
 
   ## Questions?
   GitHub: ${github}
